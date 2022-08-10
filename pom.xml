@@ -8,19 +8,29 @@
   <name>ZEAL-INDUSTRIES</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+    
+    <dependency>
+      <groupId>com.ss</groupId>
+      <artifactId>mail</artifactId>
+      <version>0.0.1</version>
+   </dependency>
+    
+    
+    
+ <!--   
     <dependency>
        <groupId>com.ve</groupId>
        <artifactId>head</artifactId>
        <version>1.0.0.</version>
    </dependency>
-  <!--
+ --> 
        <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.13.2</version>
       <scope>test</scope>
     </dependency>
--->  
+ 
 </dependencies>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -28,7 +38,7 @@
   <repositories>
     <repository>
       <id>nexus</id>
-      <url>http://43.205.143.167:8081/repository/Jar-Upload/</url>
+      <url>http://43.205.143.167:8081/repository/Jar/</url>
     </repository>
   </repositories>
   
