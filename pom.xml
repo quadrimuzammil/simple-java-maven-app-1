@@ -5,7 +5,7 @@
   <artifactId>my-app</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>my-app</name>
+  <name>ZEAL-INDUSTRIES</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -18,6 +18,23 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  <repositories>
+    <repository>
+      <id>nexus</id>
+      <url>http://43.205.120.5:8081/repository/ZEAL-INDUSTRIES/</url>
+    </repository>
+  </repositories>
+  
+  <distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <url>http://43.205.120.5:8081/repository/positronics/</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus</id>
+      <url>http://43.205.120.5:8081/repository/positronics/</url>
+    </snapshotRepository>
+  </distributionManagement>
   <build>
     <pluginManagement>
       <plugins>
