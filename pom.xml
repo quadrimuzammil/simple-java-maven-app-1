@@ -6,7 +6,7 @@
   <packaging>jar</packaging>
   <version>1.0.0</version>
   <name>ZEAL-INDUSTRIES</name>
-  <url>http://maven.apache.org</url>
+  <url>http://43.205.143.167:8081/repository/Jar-Upload/</url>
   <dependencies>
     <dependency>
        <groupId>com.ve</groupId>
