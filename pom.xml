@@ -4,24 +4,31 @@
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <name>ZEAL-INDUSTRIES</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
+       <groupId>com.ve</groupId>
+       <artifactId>head</artifactId>
+       <version>1.0.0.</version>
+   </dependency>
+  <!--
+       <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.13.2</version>
       <scope>test</scope>
     </dependency>
-  </dependencies>
+-->  
+</dependencies>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <repositories>
     <repository>
       <id>nexus</id>
-      <url>http://43.205.120.5:8081/repository/ZEAL-INDUSTRIES/</url>
+      <url>http://43.205.143.167:8081/repository/Jar-Upload/</url>
     </repository>
   </repositories>
   
